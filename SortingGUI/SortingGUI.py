@@ -12,13 +12,13 @@ def pyMain():
     barSize = int(math.floor(windowWidth / numAmount))
     
     background = (0, 0, 0) # (125, 180, 200) (0, 0, 0)
-    barColor = [69, None, 69] #[100, 0, None] [69, 69, 69]
+    barColor = [200, 200, 200] #[100, 0, None] [69, 69, 69]
     borderColor = [80, 80, 80] #[100, 0, None] [255, 255, 255]
-    frameLimit = 0.00
+    frameLimit = 0.05
 
     shuffleArray = True
     border = True
-    looping = True
+    looping = False
 
     direction = "up"
 
@@ -28,7 +28,8 @@ def pyMain():
     barArray = generateRectangles(numAmount, barSize, windowHeight, shuffleArray)
     # display(windowSurface, background, numAmount, barSize, barArray, frameLimit, barColor, borderColor, border)
     displayParams = [windowSurface, background, numAmount, barSize, barArray, frameLimit , barColor, borderColor, border, direction]
-    changePos(barArray, displayParams[9], displayParams)
+    #bubbleSort(barArray, displayParams[9], displayParams)
+    bSortMain(barArray, displayParams)
     startLoop(looping, displayParams)
 
 def pyInit(windowWidth, windowHeight):
@@ -95,7 +96,7 @@ def display(windowSurface, background, numAmount, barSize, barArray, frameLimit,
     pygame.display.update()
     time.sleep(frameLimit)
 
-def changePos(array, direction, displayParams):
+def bubbleSort(array, direction, displayParams):
     value = 0
     print(value)
 
@@ -103,11 +104,12 @@ def changePos(array, direction, displayParams):
     display(displayParams[0], displayParams[1], displayParams[2], displayParams[3], barsArray, displayParams[5], displayParams[6], displayParams[7], displayParams[8], None)
 
     time.sleep(2)
-    
-    
 
     while(True):
         pygame.event.get()
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                endGameLoop()
         stillSorting = True
         for i in range (0, displayParams[2]-1, 1):
             print(barsArray[i][4])
@@ -125,8 +127,55 @@ def changePos(array, direction, displayParams):
             display(displayParams[0], displayParams[1], displayParams[2], displayParams[3], displayParams[4], displayParams[5], displayParams[6], displayParams[7], displayParams[8], None)
             break
             
+def partition(arr, low, high, displayParams):
+    i = (low-1)
+    pivot = arr[high][4]
 
+    for j in range(low, high):
+        print(arr[j][4])
+        temp = arr[j][4]
+        if temp <= pivot:
 
+            i = i+1
+            arr[i], arr[j] = arr[j], arr[i]
+            arr[i][0], arr[j][0] = arr[j][0], arr[i][0]
+            pygame.event.get()
+            display(displayParams[0], displayParams[1], displayParams[2], displayParams[3], arr, displayParams[5], displayParams[6], displayParams[7], displayParams[8], None)
+        
+    arr[i+1], arr[high] = arr[high], arr[i+1]
+    arr[i+1][0], arr[high][0] = arr[high][0], arr[i+1][0]
+    
+    # for x in range(0, len(arr)):
+    #     arr[x][0] = x*displayParams[3]
+
+    returnArr = [(i+1)]
+
+    return returnArr
+
+def quickSort(arr, low, high, displayParams):
+    pygame.event.get()
+    time.sleep(displayParams[5])
+    if len(arr) == 1:
+        return arr
+    if low < high:
+
+        retPi = partition(arr, low, high, displayParams)
+
+        pi = retPi[0]
+        
+        display(displayParams[0], displayParams[1], displayParams[2], displayParams[3], arr, displayParams[5], displayParams[6], displayParams[7], displayParams[8], pi)
+        
+        quickSort(arr, low, pi-1, displayParams)
+        quickSort(arr, pi+1, high, displayParams)
+    display(displayParams[0], displayParams[1], displayParams[2], displayParams[3], arr, displayParams[5], displayParams[6], displayParams[7], displayParams[8], None)
+
+def bSortMain(array, displayParams):
+    time.sleep(3)
+
+    arr = displayParams[4]
+    n = len(arr)
+    display(displayParams[0], displayParams[1], displayParams[2], displayParams[3], arr, displayParams[5], displayParams[6], displayParams[7], displayParams[8], None)
+    quickSort(arr, 0, n-1, displayParams)
     
 
 
