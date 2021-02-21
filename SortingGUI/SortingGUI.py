@@ -6,18 +6,18 @@ import pygame.gfxdraw
 barArray = []
 
 def pyMain():
-    windowHeight = 512
-    windowWidth = 800
-    numAmount = 100
+    windowHeight = 256
+    windowWidth = 1024
+    numAmount = 1024
     barSize = int(math.floor(windowWidth / numAmount))
     
     background = (0, 0, 0) # (125, 180, 200) (0, 0, 0)
-    barColor = [200, 200, 200] #[100, 0, None] [69, 69, 69]
-    borderColor = [80, 80, 80] #[100, 0, None] [255, 255, 255]
-    frameLimit = 0.05
+    barColor = [255, 255, 0] #[100, 0, None] [69, 69, 69]
+    borderColor = [0, 127, 127] #[100, 0, None] [255, 255, 255]
+    frameLimit = 0.00
 
     shuffleArray = True
-    border = True
+    border = False
     looping = False
 
     direction = "up"
@@ -28,8 +28,8 @@ def pyMain():
     barArray = generateRectangles(numAmount, barSize, windowHeight, shuffleArray)
     # display(windowSurface, background, numAmount, barSize, barArray, frameLimit, barColor, borderColor, border)
     displayParams = [windowSurface, background, numAmount, barSize, barArray, frameLimit , barColor, borderColor, border, direction]
-    #bubbleSort(barArray, displayParams[9], displayParams)
-    bSortMain(barArray, displayParams)
+    bubbleSort(barArray, displayParams[9], displayParams)
+    #bSortMain(barArray, displayParams)
     startLoop(looping, displayParams)
 
 def pyInit(windowWidth, windowHeight):
@@ -45,15 +45,21 @@ def pyInit(windowWidth, windowHeight):
 
 
 def generateRectangles(numAmount, barSize, windowHeight, shuffleArray):
-
     barArray = []
     # barArray [index or location, top location, width, height of bar, bar value]
     for i in range(0, (numAmount*barSize), barSize):
+        x = random.randint(1, numAmount)
+        # if(i == 0):
+        #     i2=0.5
+        #     barArray.append([0, (windowHeight-((i2)/numAmount)*windowHeight), barSize, (windowHeight-((((i2)/numAmount)*windowHeight)-windowHeight)*-1), 0])
+        # else:
+        #     barArray.append([0, (windowHeight-((i/barSize)/numAmount)*windowHeight), barSize, (windowHeight-((((i/barSize)/numAmount)*windowHeight)-windowHeight)*-1), int(i/barSize)])
+
         if(i == 0):
             i2=0.5
-            barArray.append([0, (windowHeight-((i2)/numAmount)*windowHeight), barSize, (windowHeight-((((i2)/numAmount)*windowHeight)-windowHeight)*-1), 0])
+            barArray.append([0, (windowHeight-((x)/numAmount)*windowHeight), barSize, (windowHeight-((((x)/numAmount)*windowHeight)-windowHeight)*-1), x])
         else:
-            barArray.append([0, (windowHeight-((i/barSize)/numAmount)*windowHeight), barSize, (windowHeight-((((i/barSize)/numAmount)*windowHeight)-windowHeight)*-1), int(i/barSize)])
+            barArray.append([0, (windowHeight-((x)/numAmount)*windowHeight), barSize, (windowHeight-((((x)/numAmount)*windowHeight)-windowHeight)*-1), int(x)])
 
     if(shuffleArray):
         random.shuffle(barArray)
