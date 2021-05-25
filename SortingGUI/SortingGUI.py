@@ -7,8 +7,8 @@ barArray = []
 
 def pyMain():
     windowHeight = 256
-    windowWidth = 1024
-    numAmount = 1024
+    windowWidth = 256
+    numAmount = 32
     barSize = int(math.floor(windowWidth / numAmount))
     
     background = (0, 0, 0) # (125, 180, 200) (0, 0, 0)
@@ -17,7 +17,7 @@ def pyMain():
     frameLimit = 0.00
 
     shuffleArray = True
-    border = False
+    border = True
     looping = False
 
     direction = "up"
