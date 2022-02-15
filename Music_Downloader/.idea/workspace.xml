@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9618e4d4-29c2-4ae6-967e-e4d2e0dc5b1d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Music_Downloader$main.coverage" NAME="main Coverage Results" MODIFIED="1515019797235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <marker date="1498684258726" expanded="true" signature="10066:10117" ph="SELECT artis... artist" />
+                <marker date="1498684258726" expanded="true" signature="10200:10250" ph="SELECT album... album" />
+                <marker date="1498684258726" expanded="true" signature="10376:10430" ph="SELECT song_... song" />
+                <marker date="1498684258726" expanded="true" signature="10524:10572" ph="SELECT song_... song" />
+                <marker date="1498684258726" expanded="true" signature="11020:11079" ph="SELECT song_... song" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music_spotify.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/music_spotify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1498020920072" expanded="true" signature="489:533" ph="SELECT spoti... spotify_api_client_id" />
+                <marker date="1498020920072" expanded="true" signature="634:703" ph="INSERT INTO spotify_api_client_id... " />
+                <marker date="1498020920072" expanded="true" signature="799:877" ph="UPDATE spotify_api_client_id... " />
+                <marker date="1498020920072" expanded="true" signature="982:1031" ph="SELECT spoti... spotify_api_client_special" />
+                <marker date="1498020920072" expanded="true" signature="1132:1211" ph="INSERT INTO spotify_api_client_special... " />
+                <marker date="1498020920072" expanded="true" signature="1306:1394" ph="UPDATE spotify_api_client_special... " />
+                <marker date="1498020920072" expanded="true" signature="1648:1720" ph="SELECT spoti... spotify_api_client_id" />
+                <marker date="1498020920072" expanded="true" signature="1861:1943" ph="SELECT spoti... spotify_api_client_special" />
+                <marker date="1498020920072" expanded="true" signature="7387:7440" ph="SELECT artis... artist" />
+                <marker date="1498020920072" expanded="true" signature="7659:7764" ph="INSERT INTO artist... " />
+                <marker date="1498020920072" expanded="true" signature="7911:7973" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="8089:8146" ph="SELECT artis... artist" />
+                <marker date="1498020920072" expanded="true" signature="8466:8614" ph="INSERT INTO album... " />
+                <marker date="1498020920072" expanded="true" signature="8820:8879" ph="SELECT song_... song" />
+                <marker date="1498020920072" expanded="true" signature="8995:9049" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="9361:9502" ph="INSERT INTO song... " />
+                <marker date="1498020920072" expanded="true" signature="9752:9812" ph="SELECT song_... song" />
+                <marker date="1498020920072" expanded="true" signature="9883:9957" ph="SELECT song_... song" />
+                <marker date="1498020920072" expanded="true" signature="10306:10373" ph="UPDATE song... " />
+                <marker date="1498020920072" expanded="true" signature="10497:10531" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="10641:10696" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="10786:10841" ph="SELECT song_... song" />
+                <marker date="1498020920072" expanded="true" signature="11182:11246" ph="UPDATE album... " />
+                <marker date="1498020920072" expanded="true" signature="11503:11571" ph="UPDATE album... " />
+                <marker date="1498020920072" expanded="true" signature="11684:11751" ph="UPDATE song... " />
+                <marker date="1498020920072" expanded="true" signature="11828:11911" ph="UPDATE song... " />
+                <marker date="1498020920072" expanded="true" signature="12121:12151" ph="SELECT artis... artist" />
+                <marker date="1498020920072" expanded="true" signature="12494:12545" ph="SELECT artis... artist" />
+                <marker date="1498020920072" expanded="true" signature="12617:12675" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="12872:12950" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="13056:13140" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="13607:13661" ph="SELECT album... album" />
+                <marker date="1498020920072" expanded="true" signature="13733:13781" ph="SELECT song_... song" />
+                <marker date="1498020920072" expanded="true" signature="13864:13918" ph="SELECT song_... song" />
+                <marker date="1498020920072" expanded="true" signature="14006:14060" ph="SELECT song_... song" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1498020920038" expanded="true" signature="1257:1327" ph="SELECT spoti... spotify_api_client_id" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/youtube.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6511">
+              <caret line="393" column="10" lean-forward="false" selection-start-line="393" selection-start-column="10" selection-end-line="393" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1498684217965" expanded="true" signature="597:659" ph="SELECT chann... channels" />
+                <marker date="1498684217965" expanded="true" signature="1054:1087" ph="SELECT chann... channels" />
+                <marker date="1498684217965" expanded="true" signature="1429:1473" ph="DELETE FROM channels... " />
+                <marker date="1498684217965" expanded="true" signature="1527:1584" ph="SELECT chann... channels" />
+                <marker date="1498684217965" expanded="true" signature="1856:1878" ph="SELECT * FRO... channels" />
+                <marker date="1498684217965" expanded="true" signature="2044:2105" ph="UPDATE sqlite_sequence... " />
+                <marker date="1498684217965" expanded="true" signature="3398:3476" ph="INSERT INTO channels... " />
+                <marker date="1498684217965" expanded="true" signature="3569:3631" ph="SELECT chann... channels" />
+                <marker date="1498684217965" expanded="true" signature="4351:4385" ph="SELECT youtu... youtube_api" />
+                <marker date="1498684217965" expanded="true" signature="4497:4550" ph="INSERT INTO youtube_api... " />
+                <marker date="1498684217965" expanded="true" signature="4750:4785" ph="SELECT youtu... youtube_api" />
+                <marker date="1498684217965" expanded="true" signature="4911:4973" ph="UPDATE youtube_api... " />
+                <marker date="1498684217965" expanded="true" signature="5324:5392" ph="SELECT music... music_directory" />
+                <marker date="1498684217965" expanded="true" signature="5460:5518" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="5587:5638" ph="SELECT artis... artist" />
+                <marker date="1498684217965" expanded="true" signature="5720:5776" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="5847:5901" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="5970:6034" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="6152:6212" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="7112:7179" ph="SELECT song_... song" />
+                <marker date="1498684217965" expanded="true" signature="7297:7372" ph="SELECT song_... song" />
+                <marker date="1498684217965" expanded="true" signature="7498:7571" ph="SELECT song_... song" />
+                <marker date="1498684217965" expanded="true" signature="12366:12434" ph="SELECT music... music_directory" />
+                <marker date="1498684217965" expanded="true" signature="12502:12556" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="12650:12706" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="12792:12850" ph="SELECT album... album" />
+                <marker date="1498684217965" expanded="true" signature="12915:12966" ph="SELECT artis... artist" />
+                <marker date="1498684217965" expanded="true" signature="13064:13118" ph="SELECT song_... song" />
+                <marker date="1498684217965" expanded="true" signature="13228:13281" ph="SELECT song_... song" />
+                <marker date="1498684217965" expanded="true" signature="13353:13412" ph="SELECT song_... song" />
+                <marker date="1498684217965" expanded="true" signature="16135:16204" ph="UPDATE song... " />
+                <marker date="1498684217965" expanded="true" signature="16717:16789" ph="SELECT youtu... youtube_directory" />
+                <marker date="1498684217965" expanded="true" signature="16865:16923" ph="SELECT video... youtube_videos" />
+                <marker date="1498684217965" expanded="true" signature="17057:17117" ph="SELECT chann... youtube_videos" />
+                <marker date="1498684217965" expanded="true" signature="17266:17317" ph="SELECT chann... channels" />
+                <marker date="1498684217965" expanded="true" signature="19760:19851" ph="INSERT INTO videos_not_downloaded... " />
+                <marker date="1498684217965" expanded="true" signature="20593:20629" ph="SELECT video... youtube_videos" />
+                <marker date="1498684217965" expanded="true" signature="20862:20922" ph="SELECT chann... channels" />
+                <marker date="1498684217965" expanded="true" signature="21438:21546" ph="INSERT INTO youtube_videos... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Music_Downloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Music_Downloader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Music_Downloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Music_Downloader" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Music_Downloader" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9618e4d4-29c2-4ae6-967e-e4d2e0dc5b1d" name="Default" comment="" />
+      <created>1515017242567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515017242567</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30965006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498684258726" expanded="true" signature="10066:10117" ph="SELECT artis... artist" />
+            <marker date="1498684258726" expanded="true" signature="10200:10250" ph="SELECT album... album" />
+            <marker date="1498684258726" expanded="true" signature="10376:10430" ph="SELECT song_... song" />
+            <marker date="1498684258726" expanded="true" signature="10524:10572" ph="SELECT song_... song" />
+            <marker date="1498684258726" expanded="true" signature="11020:11079" ph="SELECT song_... song" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/music_spotify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1498020920072" expanded="true" signature="489:533" ph="SELECT spoti... spotify_api_client_id" />
+            <marker date="1498020920072" expanded="true" signature="634:703" ph="INSERT INTO spotify_api_client_id... " />
+            <marker date="1498020920072" expanded="true" signature="799:877" ph="UPDATE spotify_api_client_id... " />
+            <marker date="1498020920072" expanded="true" signature="982:1031" ph="SELECT spoti... spotify_api_client_special" />
+            <marker date="1498020920072" expanded="true" signature="1132:1211" ph="INSERT INTO spotify_api_client_special... " />
+            <marker date="1498020920072" expanded="true" signature="1306:1394" ph="UPDATE spotify_api_client_special... " />
+            <marker date="1498020920072" expanded="true" signature="1648:1720" ph="SELECT spoti... spotify_api_client_id" />
+            <marker date="1498020920072" expanded="true" signature="1861:1943" ph="SELECT spoti... spotify_api_client_special" />
+            <marker date="1498020920072" expanded="true" signature="7387:7440" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="7659:7764" ph="INSERT INTO artist... " />
+            <marker date="1498020920072" expanded="true" signature="7911:7973" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="8089:8146" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="8466:8614" ph="INSERT INTO album... " />
+            <marker date="1498020920072" expanded="true" signature="8820:8879" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="8995:9049" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="9361:9502" ph="INSERT INTO song... " />
+            <marker date="1498020920072" expanded="true" signature="9752:9812" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="9883:9957" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="10306:10373" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="10497:10531" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="10641:10696" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="10786:10841" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="11182:11246" ph="UPDATE album... " />
+            <marker date="1498020920072" expanded="true" signature="11503:11571" ph="UPDATE album... " />
+            <marker date="1498020920072" expanded="true" signature="11684:11751" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="11828:11911" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="12121:12151" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="12494:12545" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="12617:12675" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="12872:12950" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13056:13140" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13607:13661" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13733:13781" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="13864:13918" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="14006:14060" ph="SELECT song_... song" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/youtube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6511">
+          <caret line="393" column="10" lean-forward="false" selection-start-line="393" selection-start-column="10" selection-end-line="393" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1498684217965" expanded="true" signature="597:659" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1054:1087" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1429:1473" ph="DELETE FROM channels... " />
+            <marker date="1498684217965" expanded="true" signature="1527:1584" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1856:1878" ph="SELECT * FRO... channels" />
+            <marker date="1498684217965" expanded="true" signature="2044:2105" ph="UPDATE sqlite_sequence... " />
+            <marker date="1498684217965" expanded="true" signature="3398:3476" ph="INSERT INTO channels... " />
+            <marker date="1498684217965" expanded="true" signature="3569:3631" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="4351:4385" ph="SELECT youtu... youtube_api" />
+            <marker date="1498684217965" expanded="true" signature="4497:4550" ph="INSERT INTO youtube_api... " />
+            <marker date="1498684217965" expanded="true" signature="4750:4785" ph="SELECT youtu... youtube_api" />
+            <marker date="1498684217965" expanded="true" signature="4911:4973" ph="UPDATE youtube_api... " />
+            <marker date="1498684217965" expanded="true" signature="5324:5392" ph="SELECT music... music_directory" />
+            <marker date="1498684217965" expanded="true" signature="5460:5518" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5587:5638" ph="SELECT artis... artist" />
+            <marker date="1498684217965" expanded="true" signature="5720:5776" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5847:5901" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5970:6034" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="6152:6212" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="7112:7179" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="7297:7372" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="7498:7571" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="12366:12434" ph="SELECT music... music_directory" />
+            <marker date="1498684217965" expanded="true" signature="12502:12556" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12650:12706" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12792:12850" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12915:12966" ph="SELECT artis... artist" />
+            <marker date="1498684217965" expanded="true" signature="13064:13118" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="13228:13281" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="13353:13412" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="16135:16204" ph="UPDATE song... " />
+            <marker date="1498684217965" expanded="true" signature="16717:16789" ph="SELECT youtu... youtube_directory" />
+            <marker date="1498684217965" expanded="true" signature="16865:16923" ph="SELECT video... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="17057:17117" ph="SELECT chann... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="17266:17317" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="19760:19851" ph="INSERT INTO videos_not_downloaded... " />
+            <marker date="1498684217965" expanded="true" signature="20593:20629" ph="SELECT video... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="20862:20922" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="21438:21546" ph="INSERT INTO youtube_videos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498020920038" expanded="true" signature="1257:1327" ph="SELECT spoti... spotify_api_client_id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498684258726" expanded="true" signature="10066:10117" ph="SELECT artis... artist" />
+            <marker date="1498684258726" expanded="true" signature="10200:10250" ph="SELECT album... album" />
+            <marker date="1498684258726" expanded="true" signature="10376:10430" ph="SELECT song_... song" />
+            <marker date="1498684258726" expanded="true" signature="10524:10572" ph="SELECT song_... song" />
+            <marker date="1498684258726" expanded="true" signature="11020:11079" ph="SELECT song_... song" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/music_spotify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1498020920072" expanded="true" signature="489:533" ph="SELECT spoti... spotify_api_client_id" />
+            <marker date="1498020920072" expanded="true" signature="634:703" ph="INSERT INTO spotify_api_client_id... " />
+            <marker date="1498020920072" expanded="true" signature="799:877" ph="UPDATE spotify_api_client_id... " />
+            <marker date="1498020920072" expanded="true" signature="982:1031" ph="SELECT spoti... spotify_api_client_special" />
+            <marker date="1498020920072" expanded="true" signature="1132:1211" ph="INSERT INTO spotify_api_client_special... " />
+            <marker date="1498020920072" expanded="true" signature="1306:1394" ph="UPDATE spotify_api_client_special... " />
+            <marker date="1498020920072" expanded="true" signature="1648:1720" ph="SELECT spoti... spotify_api_client_id" />
+            <marker date="1498020920072" expanded="true" signature="1861:1943" ph="SELECT spoti... spotify_api_client_special" />
+            <marker date="1498020920072" expanded="true" signature="7387:7440" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="7659:7764" ph="INSERT INTO artist... " />
+            <marker date="1498020920072" expanded="true" signature="7911:7973" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="8089:8146" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="8466:8614" ph="INSERT INTO album... " />
+            <marker date="1498020920072" expanded="true" signature="8820:8879" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="8995:9049" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="9361:9502" ph="INSERT INTO song... " />
+            <marker date="1498020920072" expanded="true" signature="9752:9812" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="9883:9957" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="10306:10373" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="10497:10531" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="10641:10696" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="10786:10841" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="11182:11246" ph="UPDATE album... " />
+            <marker date="1498020920072" expanded="true" signature="11503:11571" ph="UPDATE album... " />
+            <marker date="1498020920072" expanded="true" signature="11684:11751" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="11828:11911" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="12121:12151" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="12494:12545" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="12617:12675" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="12872:12950" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13056:13140" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13607:13661" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13733:13781" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="13864:13918" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="14006:14060" ph="SELECT song_... song" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498020920038" expanded="true" signature="1257:1327" ph="SELECT spoti... spotify_api_client_id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/youtube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6511">
+          <caret line="393" column="10" lean-forward="false" selection-start-line="393" selection-start-column="10" selection-end-line="393" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1498684217965" expanded="true" signature="597:659" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1054:1087" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1429:1473" ph="DELETE FROM channels... " />
+            <marker date="1498684217965" expanded="true" signature="1527:1584" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1856:1878" ph="SELECT * FRO... channels" />
+            <marker date="1498684217965" expanded="true" signature="2044:2105" ph="UPDATE sqlite_sequence... " />
+            <marker date="1498684217965" expanded="true" signature="3398:3476" ph="INSERT INTO channels... " />
+            <marker date="1498684217965" expanded="true" signature="3569:3631" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="4351:4385" ph="SELECT youtu... youtube_api" />
+            <marker date="1498684217965" expanded="true" signature="4497:4550" ph="INSERT INTO youtube_api... " />
+            <marker date="1498684217965" expanded="true" signature="4750:4785" ph="SELECT youtu... youtube_api" />
+            <marker date="1498684217965" expanded="true" signature="4911:4973" ph="UPDATE youtube_api... " />
+            <marker date="1498684217965" expanded="true" signature="5324:5392" ph="SELECT music... music_directory" />
+            <marker date="1498684217965" expanded="true" signature="5460:5518" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5587:5638" ph="SELECT artis... artist" />
+            <marker date="1498684217965" expanded="true" signature="5720:5776" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5847:5901" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5970:6034" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="6152:6212" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="7112:7179" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="7297:7372" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="7498:7571" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="12366:12434" ph="SELECT music... music_directory" />
+            <marker date="1498684217965" expanded="true" signature="12502:12556" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12650:12706" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12792:12850" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12915:12966" ph="SELECT artis... artist" />
+            <marker date="1498684217965" expanded="true" signature="13064:13118" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="13228:13281" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="13353:13412" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="16135:16204" ph="UPDATE song... " />
+            <marker date="1498684217965" expanded="true" signature="16717:16789" ph="SELECT youtu... youtube_directory" />
+            <marker date="1498684217965" expanded="true" signature="16865:16923" ph="SELECT video... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="17057:17117" ph="SELECT chann... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="17266:17317" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="19760:19851" ph="INSERT INTO videos_not_downloaded... " />
+            <marker date="1498684217965" expanded="true" signature="20593:20629" ph="SELECT video... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="20862:20922" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="21438:21546" ph="INSERT INTO youtube_videos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/music_spotify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1498020920072" expanded="true" signature="489:533" ph="SELECT spoti... spotify_api_client_id" />
+            <marker date="1498020920072" expanded="true" signature="634:703" ph="INSERT INTO spotify_api_client_id... " />
+            <marker date="1498020920072" expanded="true" signature="799:877" ph="UPDATE spotify_api_client_id... " />
+            <marker date="1498020920072" expanded="true" signature="982:1031" ph="SELECT spoti... spotify_api_client_special" />
+            <marker date="1498020920072" expanded="true" signature="1132:1211" ph="INSERT INTO spotify_api_client_special... " />
+            <marker date="1498020920072" expanded="true" signature="1306:1394" ph="UPDATE spotify_api_client_special... " />
+            <marker date="1498020920072" expanded="true" signature="1648:1720" ph="SELECT spoti... spotify_api_client_id" />
+            <marker date="1498020920072" expanded="true" signature="1861:1943" ph="SELECT spoti... spotify_api_client_special" />
+            <marker date="1498020920072" expanded="true" signature="7387:7440" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="7659:7764" ph="INSERT INTO artist... " />
+            <marker date="1498020920072" expanded="true" signature="7911:7973" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="8089:8146" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="8466:8614" ph="INSERT INTO album... " />
+            <marker date="1498020920072" expanded="true" signature="8820:8879" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="8995:9049" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="9361:9502" ph="INSERT INTO song... " />
+            <marker date="1498020920072" expanded="true" signature="9752:9812" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="9883:9957" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="10306:10373" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="10497:10531" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="10641:10696" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="10786:10841" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="11182:11246" ph="UPDATE album... " />
+            <marker date="1498020920072" expanded="true" signature="11503:11571" ph="UPDATE album... " />
+            <marker date="1498020920072" expanded="true" signature="11684:11751" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="11828:11911" ph="UPDATE song... " />
+            <marker date="1498020920072" expanded="true" signature="12121:12151" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="12494:12545" ph="SELECT artis... artist" />
+            <marker date="1498020920072" expanded="true" signature="12617:12675" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="12872:12950" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13056:13140" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13607:13661" ph="SELECT album... album" />
+            <marker date="1498020920072" expanded="true" signature="13733:13781" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="13864:13918" ph="SELECT song_... song" />
+            <marker date="1498020920072" expanded="true" signature="14006:14060" ph="SELECT song_... song" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498020920038" expanded="true" signature="1257:1327" ph="SELECT spoti... spotify_api_client_id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/youtube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6511">
+          <caret line="393" column="10" lean-forward="false" selection-start-line="393" selection-start-column="10" selection-end-line="393" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1498684217965" expanded="true" signature="597:659" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1054:1087" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1429:1473" ph="DELETE FROM channels... " />
+            <marker date="1498684217965" expanded="true" signature="1527:1584" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="1856:1878" ph="SELECT * FRO... channels" />
+            <marker date="1498684217965" expanded="true" signature="2044:2105" ph="UPDATE sqlite_sequence... " />
+            <marker date="1498684217965" expanded="true" signature="3398:3476" ph="INSERT INTO channels... " />
+            <marker date="1498684217965" expanded="true" signature="3569:3631" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="4351:4385" ph="SELECT youtu... youtube_api" />
+            <marker date="1498684217965" expanded="true" signature="4497:4550" ph="INSERT INTO youtube_api... " />
+            <marker date="1498684217965" expanded="true" signature="4750:4785" ph="SELECT youtu... youtube_api" />
+            <marker date="1498684217965" expanded="true" signature="4911:4973" ph="UPDATE youtube_api... " />
+            <marker date="1498684217965" expanded="true" signature="5324:5392" ph="SELECT music... music_directory" />
+            <marker date="1498684217965" expanded="true" signature="5460:5518" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5587:5638" ph="SELECT artis... artist" />
+            <marker date="1498684217965" expanded="true" signature="5720:5776" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5847:5901" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="5970:6034" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="6152:6212" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="7112:7179" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="7297:7372" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="7498:7571" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="12366:12434" ph="SELECT music... music_directory" />
+            <marker date="1498684217965" expanded="true" signature="12502:12556" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12650:12706" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12792:12850" ph="SELECT album... album" />
+            <marker date="1498684217965" expanded="true" signature="12915:12966" ph="SELECT artis... artist" />
+            <marker date="1498684217965" expanded="true" signature="13064:13118" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="13228:13281" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="13353:13412" ph="SELECT song_... song" />
+            <marker date="1498684217965" expanded="true" signature="16135:16204" ph="UPDATE song... " />
+            <marker date="1498684217965" expanded="true" signature="16717:16789" ph="SELECT youtu... youtube_directory" />
+            <marker date="1498684217965" expanded="true" signature="16865:16923" ph="SELECT video... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="17057:17117" ph="SELECT chann... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="17266:17317" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="19760:19851" ph="INSERT INTO videos_not_downloaded... " />
+            <marker date="1498684217965" expanded="true" signature="20593:20629" ph="SELECT video... youtube_videos" />
+            <marker date="1498684217965" expanded="true" signature="20862:20922" ph="SELECT chann... channels" />
+            <marker date="1498684217965" expanded="true" signature="21438:21546" ph="INSERT INTO youtube_videos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1498684258726" expanded="true" signature="10066:10117" ph="SELECT artis... artist" />
+            <marker date="1498684258726" expanded="true" signature="10200:10250" ph="SELECT album... album" />
+            <marker date="1498684258726" expanded="true" signature="10376:10430" ph="SELECT song_... song" />
+            <marker date="1498684258726" expanded="true" signature="10524:10572" ph="SELECT song_... song" />
+            <marker date="1498684258726" expanded="true" signature="11020:11079" ph="SELECT song_... song" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
