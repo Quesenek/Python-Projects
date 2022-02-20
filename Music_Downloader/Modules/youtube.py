@@ -94,7 +94,7 @@ def AddChannel(channelURL):
     url = url.replace('https://www.youtube.com/watch?v=', '')
     print ("URL to be found: %s" % str(url))
 
-    DEVELOPER_KEY = "AIzaSyCNGlSDTeAi0zt8Y1TrvV4jhJ_72v1JcrQ"
+    DEVELOPER_KEY = ""
     YOUTUBE_API_SERVICE_NAME = "youtube"
     YOUTUBE_API_VERSION = "v3"
 
